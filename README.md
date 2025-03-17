@@ -19,7 +19,7 @@ Protect your website with a strong captcha with a several lines of code:
 
 5. Validate human token on your backend server using our http REST endpoint
 
-Visit our demo page: https://secure.fileshare.ovh/embedded-dynamic-captcha.html
+Visit our demo page: https://secure.fileshare.ovh/embedded-dynamic-captcha-demo.html
 
 
 
