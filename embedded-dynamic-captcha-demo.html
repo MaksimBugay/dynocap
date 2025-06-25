@@ -27,8 +27,7 @@
 
 <div class="main-container" style="flex-direction: column; height: 100vh;">
     <div style="transform: scale(1.0);">
-        <iframe id="captchaFrame" src="https://secure.fileshare.ovh/puzzle-captcha-min.html"
-                class="puzzle-captcha-iframe"></iframe>
+        <iframe id="captchaFrame" class="puzzle-captcha-iframe"></iframe>
     </div>
 </div>
 </body>
@@ -51,6 +50,7 @@
         location.reload();
     }
 
+    //document.getElementById("captchaFrame").src = `https://secure.fileshare.ovh/puzzle-captcha-min.html?page-id=${pageId}&piece-length=160&skip-demo=true`;
     document.getElementById("captchaFrame").src = `https://secure.fileshare.ovh/puzzle-captcha-min.html?page-id=${pageId}&piece-length=160`;
     openWsConnection();
 
